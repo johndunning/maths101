@@ -1,0 +1,70 @@
+.listBox {
+    display: flex;
+    align-content: space-between;
+    margin: 20px auto 20px auto;
+    width: 800px;
+    border: 1px solid black;
+}
+
+.placeholder {
+    background-color: darkblue;
+    margin: 10px;
+    width: 180px;
+    border-radius: 30px;;
+}
+
+.placeholder>.header {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.placeholder .content {
+    background-color: darkgrey;
+    padding: 10px;
+}
+
+.totalContent {
+    background-color: darkblue;
+    margin: 10px;
+    width: 180px;
+    font-size: 42px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;;
+}
+
+.placeholder>.footer {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.dragItem {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: gold;
+    border: 1px solid goldenrod;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tooMany {
+    opacity: 30%;
+}
+
+.dragTarget {
+    width: 140px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow-y: scroll;
+    background-color: transparent;
+    border: none;
+}
